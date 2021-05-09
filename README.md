@@ -1,7 +1,15 @@
 # SWE_HW2
 [GitHub URL](URL)
+
+# **init
 ![init](https://user-images.githubusercontent.com/69834230/117570312-8daf6600-b104-11eb-873f-73dd53cc26ed.png)
 
+# **config**
+>Git 최초 설정을 위해 사용자 이름, 이메일, 편집기 등의 정보를 미리 설정하는 명령어
+>- 이름 설정 : git config --global user.name "이민지"
+>- 이메일 설정 : git config --global user.email "julia7450@naver.com"
+>- 편집기 설정 : git config --global core.editor vim
+>- 설정 확인 : git config --list
 ![config](https://user-images.githubusercontent.com/69834230/117570395-d9620f80-b104-11eb-8000-43afc850f7a6.png)
 
 ![status](https://user-images.githubusercontent.com/69834230/117570421-fa2a6500-b104-11eb-83e2-fb46ebdb7a11.png)
