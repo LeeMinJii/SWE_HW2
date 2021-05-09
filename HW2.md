@@ -181,3 +181,111 @@ And the next line. (X)
 ```
 
 ---
+
+# **4. 강조**
+
+> **1. 굵게**  
+> 단어나 구 전후에 두 개의 별표 또는 밑줄을 추가하여 글자를 굵게 만들어 단어를 강조한다.  
+>- 공백은 없도록 한다.  
+>- 문자 중간에는 별표는 사용가능 하되, 밑줄은 사용불가능하다.  
+```ex)  Love**is**bold (O)	 Love__is__bold (X)```
+### 예) 
+```
+        <Markdown>	                   <HTML>	
+I just love **bold text**.	I just love <strong>bold text</strong>.	
+```
+출력 : I just love **bold text**.
+
+---
+
+```
+       <Markdown>	                   <HTML>	
+ I just love __bold text__.	I just love <strong>bold text</strong>.	
+```
+출력 : I just love **bold text**. 
+
+---
+
+```
+<Markdown>	         <HTML>
+Love**is**bold	Love<strong>is</strong>bold	
+```
+출력 : Love**is**bold
+
+---
+
+> **2. 기울임꼴**  
+> 단어나 구 전후에 하나의 별표 또는 밑줄을 추가하여 글자를 기울여 단어를 강조한다.  
+>- 공백은 없도록 한다.  
+>- 문자 중간에는 별표는 사용가능 하되, 밑줄은 사용불가능하다.  
+```ex)  A*cat*meow (O)	 A_cat_meow (X)```  
+### 예)
+```
+           <Markdown>	                                <Html>
+Italicized text is the *cat's meow*.	Italicized text is the <em>cat's meow</em>.  
+```
+출력 : Italicized text is the *cat's meow*.  
+
+---
+
+```
+<Markdown>	                   <Html>
+Italicized text is the _cat's meow_.	Italicized text is the <em>cat's meow</em>.	  
+```
+출력 : Italicized text is the _cat's meow_.  
+
+---
+
+```
+<Markdown>	           <Html>
+A*cat*meow	      A<em>cat</em>meow  
+```  
+출력 : A*cat*meow
+
+---
+
+> **3. 굵고 기울임꼴**  
+> 단어나 구 전후에 세 개의 별표 또는 밑줄을 추가하여 글자를 굵게 함과 동시에 기울여 단어를 강조한다. 
+>- 공백은 없도록 한다.  
+>- 문자 중간에는 별표는 사용가능 하되, 밑줄은 사용불가능하다.  
+```ex)  This is really***very***important text. (O)	 This is really___very___important text. (X)```  
+### 예)
+```
+           <Markdown>	                               <Html>
+This text is ***really important***.	 This text is <strong><em>really important</em></strong>.
+```
+출력 : This text is ***really important***.  
+
+---
+
+```
+           <Markdown>	                               <Html>
+This text is ___really important___.	 This text is <strong><em>really important</em></strong>.  
+```
+출력 : This text is ___really important___.
+
+---
+
+```
+           <Markdown>	                               <Html>
+This text is __*really important*__.	 This text is <strong><em>really important</em></strong>.  
+```  
+출력 : This text is __*really important*__.  
+
+---
+
+```
+          <Markdown>	                               <Html>
+This text is **_really important_**.	 This text is <strong><em>really important</em></strong>.  
+```
+출력 : This text is **_really important_**.  
+
+---
+
+```
+          <Markdown>	                               <Html>
+This is really***very***important text.	 This is really<strong><em>very</em></strong>important text.  
+```
+출력 : This is really***very***important text.  
+
+---
