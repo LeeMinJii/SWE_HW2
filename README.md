@@ -5,8 +5,8 @@
 >새로운 저장소를 초기화하는 명령어
 >- **git init**
 
-```파일을 새로 열고 git init을 입력해 새로운 저장소를 초기화했다.```
 ![init](https://user-images.githubusercontent.com/69834230/117570312-8daf6600-b104-11eb-873f-73dd53cc26ed.png)
+>>파일을 새로 열고 git init을 입력해 새로운 저장소를 초기화했다.  
 
 # **config**
 >Git 최초 설정을 위해 사용자 이름, 이메일, 편집기 등의 정보를 미리 설정하는 명령어
