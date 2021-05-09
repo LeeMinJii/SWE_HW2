@@ -17,7 +17,7 @@
 
 ![git config](https://user-images.githubusercontent.com/69834230/117570395-d9620f80-b104-11eb-8000-43afc850f7a6.png)  
 
-```config를 통해 사용자 이름, 이메일을 등록하고 해당 내용들을 확인했다.  ```
+```config를 통해 나만의 사용자 이름, 이메일을 등록하고 해당 내용들을 확인했다.  ```
 
 # **status**
 >파일 상태를 확인하는 명령어
@@ -25,7 +25,7 @@
 
 ![git status](https://user-images.githubusercontent.com/69834230/117570421-fa2a6500-b104-11eb-83e2-fb46ebdb7a11.png)  
 
-``` 현재 init을 이용해 새로운 저장소만 만들었으므로 만든 md파일의 상태를 확인하기 위해 status명령어를 사용하여 현재 빨간 줄 부분의 파일을 스테이징 영역에 추가해야 함을 확인했다.```
+```우선 과제 1에서 만든 markdown사용법을 새로만든 md파일에 조금 복사해두었다. 현재 init을 이용해 새로운 저장소만 만들었으므로 새로 만든 md파일의 상태를 확인하기 위해 status명령어를 사용하여 현재 빨간 줄 부분의 파일을 스테이징 영역에 추가해야 함을 확인했다.```
 
 # **add**
 >작업 디렉토리 상의 변경 내용을 스테이징 영역에 추가하기 위해서 사용하는 명령어
@@ -64,7 +64,7 @@
 
 ![git reset --hard](https://user-images.githubusercontent.com/69834230/117570630-e9c6ba00-b105-11eb-81bd-26da6ac4e2ba.png)    
 
-``` 먼저 reset를 확인하기 위해 조금씩 변경을 가한 후 몇 개의 commit을 더 만들어 줬다. 그 다음 commit주소를 알기 위해 git log를 했다. 조회된 주소의 앞 6자리만 따와서 [주소] 부분에 넣고 reset명령어를 이용하여 해당 commit으로 돌아가고 돌아간 부분 이후의 모든 내용은 지웠다.```  
+``` 먼저 reset를 확인하기 위해 과제1의 markdown사용법을 조금씩 더 붙여넣기 하여 변경을 가한 후 몇 개의 commit을 더 만들어 줬다. 그 다음 commit주소를 알기 위해 git log를 했다. 조회된 주소의 앞 6자리만 따와서 [주소] 부분에 넣고 reset명령어를 이용하여 해당 commit으로 돌아가고 돌아간 부분 이후의 모든 내용은 지워봤다.```  
 
 # **branch**
 >독립적으로 어떤 작업을 진행하기 위한 브랜치를 만드는 명령어
@@ -86,7 +86,7 @@
 
 ![git merge](https://user-images.githubusercontent.com/69834230/117571064-e7fdf600-b107-11eb-8eda-4552dcc2033f.png)  
 
-```happy브랜치로 이동해서 변경을 가한 후 다시 master 브랜치로 돌아와 merge를 이요하여 happy의 변경 사항을 master에서 병합했다.``` 
+```happy브랜치로 이동해서 과제1의 프로그램을 조금 더 붙여넣기 하여 변경을 가한 후 다시 master 브랜치로 돌아와 merge를 이요하여 happy의 변경 사항을 master에서 병합했다.``` 
 # **rebase**
 > branch의 변경사항을 병합하되, 커밋 수를 줄이고 깔끔하게 병합하는 명령어
 >- **git rebase master** : 변경을 가할 브랜치의 내용을 복사하여 master에 붙여넣기
@@ -94,7 +94,7 @@
 
 ![git rebase](https://user-images.githubusercontent.com/69834230/117572166-96a43580-b10c-11eb-8317-44b92bdcc34a.png)  
 
-```happy브랜치로 이동하여 변경을 가하고 rebase master를 이용해 내용을 붙여넣은 후 다시 master브랜치로 이동하여 rebase [변경을 가한 브랜치이름]을 이용하여 병합을 완료했다.```  
+```happy브랜치로 이동하여 마찬가지로 변경을 가하고 rebase master를 이용해 내용을 붙여넣은 후 다시 master브랜치로 이동하여 rebase [변경을 가한 브랜치이름]을 이용하여 병합을 완료했다.```  
 
 # **remote**
 >작업을 수행하는 공간과 GitHub공간을 연결해주는 명령어
